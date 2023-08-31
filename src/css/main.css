@@ -1,0 +1,13 @@
+page {
+  --theme-color: #112bc1;
+  --theme-color-moderate:#2567c9;
+  --theme-color-light: #98b0f3;
+  --theme-color-pale: #eff6ff;
+  /* --theme-color: #6a11c1;
+  --theme-color-light: #ae72eb; */
+  --input-box-height: 36px;
+  --input-box-border-radius:calc(var(--input-box-height) * 0.5);
+  --theme-grey: #9a9a9a;
+  --theme-grey-moderate: #e3e3e3;
+  --theme-grey-light: #f2f2f2;
+}

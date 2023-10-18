@@ -4,6 +4,10 @@
 Uniapp项目，使用vant组件。
 
 ## 启动方法
+- 安装依赖
+    ```sh
+    npm install
+    ```
 - 测试
     ```sh
     npm run dev:mp-wexin

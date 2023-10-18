@@ -1,6 +1,6 @@
 page {
   --theme-color: #112bc1;
-  --theme-color-moderate:#2567c9;
+  --theme-color-moderate:hsl(216, 69%, 47%);
   --theme-color-light: #98b0f3;
   --theme-color-pale: #eff6ff;
   /* --theme-color: #6a11c1;

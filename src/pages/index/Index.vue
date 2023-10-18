@@ -1,7 +1,10 @@
 <template>
-  <HomePage>
+  <HomePage v-if="active == 0">
 
   </HomePage>
+  <UserPage v-if="active == 3">
+
+  </UserPage>
   <div class="homepage" @click="goback()">back</div>
   <van-tabbar :active="active" @change="onChange" class="tabbar">
     <van-tabbar-item icon="wap-home-o">首页</van-tabbar-item>
@@ -17,7 +20,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import HomePage from './HomePage.vue';
+import UserPage from './UserPage.vue';
 const active = ref(0)
+
 
 function onChange(event : any){
   active.value = event.detail
